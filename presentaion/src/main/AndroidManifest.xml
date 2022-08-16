@@ -27,9 +27,9 @@
             </intent-filter>-->
         </activity>
 
-        <activity android:name=".view.intro.IntroActivity"
+        <activity android:name=".view.IntroActivity"
             android:exported="true"
-            android:theme="@style/Theme.CleanArchitectureStudy">
+            android:theme="@style/Theme.CleanFlowMovie">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -40,10 +40,10 @@
             android:windowSoftInputMode="adjustNothing"
             android:exported="false"/>
 
-        <activity android:name=".view.qr.QrCodeActivity"
-            android:screenOrientation="fullSensor"/>
+<!--        <activity android:name=".view.qr.QrCodeActivity"-->
+<!--            android:screenOrientation="fullSensor"/>-->
 
-        <activity android:name=".view.web.WebViewActivity"/>
+<!--        <activity android:name=".view.web.WebViewActivity"/>-->
     </application>
 
 </manifest>

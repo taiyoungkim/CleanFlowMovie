@@ -7,7 +7,7 @@ import io.reactivex.Flowable
 import io.reactivex.Single
 import kotlinx.coroutines.flow.Flow
 
-@DefineComponent(parent = ActivityComponent::class)
+//@DefineComponent(parent = ActivityComponent::class)
 interface MovieRepository {
     fun getSearchMovies(
         query: String
